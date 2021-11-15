@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sayib Shop - Order Form</title>
+    <style>
+      table,
+      tr,
+      td {
+        /* border: 1px solid black; */
+        border-collapse: collapse;
+      }
+      td {
+        vertical-align: top;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: whitesmoke;
+      font-family: Arial, Helvetica, sans-serif;
+    "
+  >
+    <div
+      style="
+        border: 1px solid black;
+        margin: auto;
+        height: 50px;
+        background-color: azure;
+      "
+    >
+      <nav style="margin: auto; padding: 15px; text-align: center">
+        <a
+          href="#"
+          style="
+            text-decoration: none;
+            color: #111;
+            margin-right: 20px;
+            margin-left: 20px;
+          "
+          >Home</a
+        >
+        |
+        <a
+          href="#"
+          style="
+            text-decoration: none;
+            color: #111;
+            margin-right: 20px;
+            margin-left: 20px;
+          "
+          >Generate Link</a
+        >
+        |
+        <a
+          href="#"
+          style="
+            text-decoration: none;
+            color: #111;
+            margin-right: 20px;
+            margin-left: 20px;
+          "
+          >Transaction History</a
+        >
+        |
+        <a
+          href="#"
+          style="
+            text-decoration: none;
+            color: #111;
+            margin-right: 20px;
+            margin-left: 20px;
+          "
+          >Policy</a
+        >
+        |
+        <a
+          href="#"
+          style="
+            text-decoration: none;
+            color: #111;
+            margin-right: 20px;
+            margin-left: 20px;
+          "
+          >Logout</a
+        >
+      </nav>
+    </div>
+    <br />
+    <br />
+
+    <div style="margin: auto">
+      <form action="">
+        <table style="width: 85%">
+          <tr>
+            <td rowspan="9" style="width: 40%">
+              <p style="text-align: center">
+                <img
+                  src="./img/upload.png"
+                  alt="upload foto"
+                  height="300px"
+                  style="display: block; margin-left: auto; margin-right: auto"
+                />
+              </p>
+              <p style="text-align: center"><input type="file" /></p>
+            </td>
+            <td>Title Here</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>:</td>
+            <td><textarea name="" id="" cols="21" rows="4"></textarea></td>
+          </tr>
+          <tr>
+            <td>Account Number</td>
+            <td>:</td>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Bank</td>
+            <td>:</td>
+            <td>
+              <select name="" id="">
+                <option value="1">BCA</option>
+                <option value="2">BRI</option>
+                <option value="3">Bank Mandiri</option>
+                <option value="4">GoPay</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Holder</td>
+            <td>:</td>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Transaction</td>
+            <td>:</td>
+            <td>
+              <input type="number" name="" id="" />
+              <br />
+              <p style="font-size: 15px; font-weight: lighter; color: #999">
+                * if transaction is for 3 persons, choose from the drop-down
+                list
+              </p>
+              <input type="checkbox" name="choose" id="" /> Send to Mobile Phone
+              <br />
+              <input type="checkbox" name="choose" id="" /> Send to Email
+              <br /><br />
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Mobile Phone</td>
+            <td>:</td>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Send to Email</td>
+            <td>:</td>
+            <td><input type="text" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <input type="submit" value="Generate Nabr Link" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

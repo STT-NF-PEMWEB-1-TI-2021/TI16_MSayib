@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+  </head>
+
+  <body
+    style="
+      background-color: mintcream;
+      font-family: Arial, Helvetica, sans-serif;
+    "
+  >
+    <div
+      style="
+        background: grey;
+        padding: 10px;
+        height: 75px;
+        border: 2px solid black;
+        overflow: hidden;
+      "
+    >
+      <h1 style="margin-left: 10px; color: #333; float: left">Sayib Shop</h1>
+      <ul
+        style="
+          list-style-type: none;
+          float: left;
+          margin: 10;
+          padding: 20;
+          overflow: hidden;
+        "
+      >
+        <li
+          style="
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            padding: 14px 16px;
+            float: left;
+          "
+        >
+          <a href="#" style="text-decoration: none; color: darkblue"
+            >Category 1</a
+          >
+        </li>
+        <li
+          style="
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            padding: 14px 16px;
+            float: left;
+          "
+        >
+          <a href="#" style="text-decoration: none; color: darkblue"
+            >Category 2</a
+          >
+        </li>
+        <li
+          style="
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            padding: 14px 16px;
+            float: left;
+          "
+        >
+          <a href="#" style="text-decoration: none; color: darkblue"
+            >Category 3</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div style="padding: 20px; font-family: Arial, Helvetica, sans-serif">
+      <h1>Your Chart</h1>
+
+      <table style="width: 50%; text-align: left; border-collapse: collapse">
+        <tr
+          style="
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 55px;
+          "
+        >
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+        <tr style="padding: 90px">
+          <td>
+            <br />
+            <img
+              src="img/product.jpg"
+              alt="photo-cart"
+              style="height: 150px; border-radius: 10px; float: left"
+            />
+            <p style="float: left; margin-left: 20px; margin-top: 50px">
+              <b>TP-LINK M7350 LTE-Advanced</b> <br />
+            </p>
+          </td>
+          <td>
+            <p>IDR 845.000</p>
+          </td>
+          <td><input type="number" id="quantity" name="quantity" /></td>
+        </tr>
+        <tr style="height: 20px">
+          <td></td>
+        </tr>
+        <tr
+          style="
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 55px;
+            text-align: right;
+          "
+        >
+          <th colspan="2">Subtotal IDR 845.000</th>
+        </tr>
+      </table>
+    </div>
+
+    <div
+      style="
+        background: lightgrey;
+        border: 2px solid black;
+        position: absolute;
+        top: 150px;
+        right: 200px;
+        width: 30%;
+        height: 400px;
+      "
+    >
+      <h3 style="margin-left: 30px; margin-top: 40px">Summary (1 Item)</h3>
+      <table style="width: 100%; margin-left: 30px">
+        <tr style="height: 50px">
+          <td>Subtotal</td>
+          <td>IDR 845.000</td>
+        </tr>
+        <tr style="height: 50px">
+          <td>Shipping</td>
+          <td>-</td>
+        </tr>
+        <tr style="height: 50px">
+          <td>Est. Taxes</td>
+          <td>-</td>
+        </tr>
+      </table>
+      <hr style="border: 2px solid white; width: 90%" />
+      <table style="width: 63%; margin-left: 30px; margin-top: 30px">
+        <tr>
+          <td><b>Total</b></td>
+          <td style="text-align: right"><b>IDR 845.000</b></td>
+        </tr>
+      </table>
+      <button
+        style="
+          background-color: cadetblue;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #fff;
+          border: none;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 24px 12px;
+          cursor: pointer;
+          padding: 14px 120px;
+        "
+      >
+        Checkout
+      </button>
+    </div>
+  </body>
+</html>
