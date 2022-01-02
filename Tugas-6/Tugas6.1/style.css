@@ -1,0 +1,23 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.box {
+  background-image: url("sample1.jpeg");
+  width: 50%;
+  border: 1px solid rgb(172, 172, 172);
+  height: 250px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box-small {
+  background-image: url("sample2.jpeg");
+  width: 20%;
+  border: 1px solid rgb(172, 172, 172);
+  height: 250px;
+  margin: 5px;
+  border-radius: 10px;
+}
